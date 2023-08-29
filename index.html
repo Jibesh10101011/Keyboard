@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <style>
+        div {
+    margin-bottom: -20px;
+}
+#main {
+    height:380px;
+    width:1260px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction:column;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.748);
+    justify-content: center;
+    align-items: center;
+}
+#main #upper {
+    height:80px ;
+    width: 1260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p {
+    height: 50px;
+    width: 180px;
+    
+    display: inline-block;
+}
+button {
+    height: 50px;
+    width: 50px;
+    text-align: left;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.558);
+    color: white;
+    box-shadow: 8px 8px 15px black;
+}
+#part1 {
+      transform: translateX(-10px); 
+}
+#level1{
+    width:1000px;
+}
+#main #part4 #print {
+    font-size: 10px;
+    transform: translateY(-5px);
+}
+#main #part4 button {
+    width: 50px;
+}
+
+#lower {
+    height:80px ;
+    width: 1260px;
+      
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lower #lowerpart1 {
+     width:900px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+#lower #lowerpart2 {
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#lower #lowerpart2 #Backspace {
+    width:80px;
+}
+#lower #lowerpart2 #insert,#home {
+    font-size: 12px;
+}
+#lowerensistor {
+    height:80px ;
+    width: 1260px;
+      
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lowerensistor #lowerensistor_part1 {
+    width:900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lowerensistor #lowerensistor_part2 {
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lowlowensistor {
+    height:80px ;
+    width: 1260px;
+      
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lowlowensistor #lowchild1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.lowlowensistor #lowchild2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lowlowensistor #lowchild21 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lowlowensistor p{
+    width:1000px;
+
+}
+.lowlowensistor #lowchild2 button
+{
+    height: 60px;
+    width: 60px;
+}
+#one,#two,#three {
+    height: 50px;
+    width: 230px;
+    display: flex;
+    justify-content:space-between;
+}
+#upper #part4 {
+    display: flex; 
+    width:200px; 
+    justify-content: space-around;
+}
+.lowlowensistor #last {
+    width:200px;
+    display: flex;
+   justify-content: space-around;
+}
+.lowlowensistor #last button {
+    font-size: 20px;
+    padding-left: 15px;
+}
+#lastbefore {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#lastbefore button {
+    font-size: 20px;
+    padding-left:15px;
+}
+#number {
+    height:600px;
+    width:300px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+}
+
+    </style>
+</head>
+<body>
+  <div id="main">
+   <div id="upper">
+  <p id="level1" style="width:fit-content">
+    <button id="esc">Esc</button>
+   <p id="one">
+        <button class="ftoall">F1</button>
+        <button class="ftoall">F2</button>
+        <button class="ftoall">F3</button>
+        <button class="ftoall">F4</button>
+    </p>
+    <p id="two">
+        <button class="ftoall">F5</button>
+        <button class="ftoall">F6</button>
+        <button class="ftoall">F7</button>
+        <button class="ftoall">F8</button>
+    </p>
+    <p id="three">
+        <button class="ftoall">F9</button>
+        <button class="ftoall">F10</button>
+        <button class="ftoall">F11</button>
+        <button class="ftoall">F12</button>
+    </p>
+     <p id="part4">
+    <button class="ftoall" id="print">Print Screen SysRq</button>
+    <button class="ftoall" id="lock">Scroll Lock</button>
+    <button class="ftoall" id="pause">Pause Break</button> 
+    </p>
+    </div>
+    <div id="lower">
+      <p id="lowerpart1" style="width: 1000px;">
+        <button>~<br/>`</button>
+        <button>!<br/>1</button>
+        <button>@<br/>2</button>
+        <button>#<br/>3</button>
+        <button>$<br/>4</button>
+        <button>%<br/>5</button>
+        <button>^<br/>6</button>
+        <button>&<br/>7</button>
+        <button>*<br/>8</button>
+        <button>&#40;<br/>9</button>
+        <button>&#41;<br/>0</button>
+        <button>-<br/>-</button>
+        <button>+<br/>=</button>
+        <button id="Backspace" style="width:150px">Backspace</button>
+      </p>
+      <p id="lowerpart2">
+        <button id="insert">Insert</button>
+        <button id="home">Home</button>
+        <button id="pageup">Page<br/>Up</button>
+      </p>
+    </div>
+    <div id="lowerensistor">
+       <p id="lowerensistor_part1" style="width: 1000px;">
+          <button style="width:130px; font-size:15px;">Tab&nbsp;|<---------<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------->|</button>
+          <button>Q</button>
+          <button>W</button>
+          <button>E</button>
+          <button>R</button>
+          <button>T</button>
+          <button>Y</button>
+          <button>U</button>
+          <button>I</button>
+          <button>S</button>
+          <button>O</button>
+          <button>P</button>
+          <button>{<br/>[</button>
+          <button>}<br/>]</button>
+          <button style="width: 60px;">|<br/>\</button>
+       </p>
+       <p id="lowerensistor_part2">
+           <button style="font-size: 10px;">Delete</button>
+           <button>End</button>
+           <button style="font-size: 12px;">Page<br/>Down</button>
+       </p>
+    </div>
+    <div class="lowlowensistor">
+        <p id="lowchild1"  style="width: 1000px;">
+            <button style="width: 80px;">CapsLock</button>
+            <button>A</button>
+            <button>B</button>
+            <button>C</button>
+            <button>D</button>
+            <button>E</button>
+            <button>F</button>
+            <button>G</button>
+            <button>H</button>
+            <button>I</button>
+            <button>J</button>
+            <button>K</button>
+            <button>L</button>
+            <button>:<br/>;</button>
+            <button>"<br/>'</button>
+            <button style="width: 90px;">Enter</button>
+        </p>
+    </div>
+
+
+
+    <div class="lowlowensistor">
+        <p id="lowchild21"  style="width: 1000px">
+            <button style="width:170px">Shift</button>
+            <button>Z</button>
+            <button>X</button>
+            <button>C</button>
+            <button>V</button>
+            <button>B</button>
+            <button>N</button>
+            <button>M</button>
+            <button><<br/>,</button>
+            <button>><br/>.</button>
+            <button>?<br/>/</button>
+            <button style="width: 170px;">Shift</button>
+        </p>
+        <p id="lastbefore">
+            <button>/\</button>
+        </p>
+    </div>
+
+
+    <div class="lowlowensistor">
+        <p id="lowchild2" style="height: 70px;">
+            <button>Ctrl</button>
+            <button>Fn</button>
+            <button>Alt</button>
+            <button style="width:480px"></button>
+            <button>Alt</button>
+            <button style="font-size: 13px;">Window</button>
+            <button>fn</button>
+            <button>Ctrl</button>
+            </p>
+        <p id="last">
+            <button><</button>
+            <button>\/</button>
+            <button>></button>
+        </p>
+    </div>
+</body>
+</html>

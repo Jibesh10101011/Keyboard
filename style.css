@@ -1,0 +1,166 @@
+div {
+    margin-bottom: -20px;
+}
+#main {
+    height:380px;
+    width:1260px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction:column;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.748);
+    justify-content: center;
+    align-items: center;
+}
+#main #upper {
+    height:80px ;
+    width: 1260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p {
+    height: 50px;
+    width: 180px;
+    
+    display: inline-block;
+}
+button {
+    height: 50px;
+    width: 50px;
+    text-align: left;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.558);
+    color: white;
+    box-shadow: 8px 8px 15px black;
+}
+#part1 {
+      transform: translateX(-10px); 
+}
+#level1{
+    width:1000px;
+}
+#main #part4 #print {
+    font-size: 10px;
+    transform: translateY(-5px);
+}
+#main #part4 button {
+    width: 50px;
+}
+
+#lower {
+    height:80px ;
+    width: 1260px;
+      
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lower #lowerpart1 {
+     width:900px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+#lower #lowerpart2 {
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#lower #lowerpart2 #Backspace {
+    width:80px;
+}
+#lower #lowerpart2 #insert,#home {
+    font-size: 12px;
+}
+#lowerensistor {
+    height:80px ;
+    width: 1260px;
+      
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lowerensistor #lowerensistor_part1 {
+    width:900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lowerensistor #lowerensistor_part2 {
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lowlowensistor {
+    height:80px ;
+    width: 1260px;
+      
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lowlowensistor #lowchild1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.lowlowensistor #lowchild2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lowlowensistor #lowchild21 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lowlowensistor p{
+    width:1000px;
+
+}
+.lowlowensistor #lowchild2 button
+{
+    height: 60px;
+    width: 60px;
+}
+#one,#two,#three {
+    height: 50px;
+    width: 230px;
+    display: flex;
+    justify-content:space-between;
+}
+#upper #part4 {
+    display: flex; 
+    width:200px; 
+    justify-content: space-around;
+}
+.lowlowensistor #last {
+    width:200px;
+    display: flex;
+   justify-content: space-around;
+}
+.lowlowensistor #last button {
+    font-size: 20px;
+    padding-left: 15px;
+}
+#lastbefore {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#lastbefore button {
+    font-size: 20px;
+    padding-left:15px;
+}
+#number {
+    height:600px;
+    width:300px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+}
